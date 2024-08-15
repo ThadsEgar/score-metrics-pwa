@@ -1,13 +1,7 @@
-import {Sidebar} from "@/components/Sidebar";
-import Image from "next/image";
+import {PageLayout} from "@/components/PageLayout"
 
-export default function Home() {
+export default function Start() {
   return (
-
-    <div className='bg-gray-400 w-screen h-screen flex'>
-      <Sidebar>
-      </Sidebar>
-    </div>
-
+       <PageLayout />
   );
 }
